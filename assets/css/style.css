@@ -74,6 +74,10 @@ body {
 	background: lightgray;
 }
 
+/*
+	Description box
+*/
+
 .project-item .goto-box {
 	height: 100%;
 	width: 40%;
@@ -93,11 +97,19 @@ body {
 	padding-top: 0;
 }
 
+/*
+	Supporting image
+*/
+
 .project-item img {
 	float: left;
 	width: 60%;
 	height: 100%;
 }
+
+/*
+	Styled colour classes for ease and simplicity
+*/
 
 .project-item.blue-style-item .goto-box {
 	background-image: linear-gradient(to right bottom, #2d89ef, #1BA1E2);
