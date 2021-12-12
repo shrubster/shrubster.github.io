@@ -1,0 +1,65 @@
+/*
+	Credit to Meyerweb for CSS styling reset.
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*
+	Font faces
+*/
+
+@font-face {
+	font-family: 'Source Sans 3';
+	src: url('../fonts/SourceSans3-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+/*
+	Generalised Rules
+*/
+
+body {
+	font-family: 'Source Sans 3', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+	Big orange gradiented text
+*/
+
+.page .main-text {
+	width: 100%;
+	display: block;
+	height: 60vh;
+	background-image: linear-gradient(to right bottom, rgb(255, 196, 0), rgb(189, 53, 0));
+	color: white;
+}
+
+.main-text-wrapper {
+	padding: 100px;
+}
+
+.page .main-text .main-text-wrapper h1 {
+	font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 80pt;
+}
+
+.page .main-text .main-text-wrapper p {
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 55pt;
+}
