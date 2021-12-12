@@ -63,3 +63,43 @@ body {
 	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 55pt;
 }
+
+/*
+	Project entries
+*/
+
+.project-item {
+	width: 100%;
+	height: 40vh;
+	background: lightgray;
+}
+
+.project-item .goto-box {
+	height: 100%;
+	width: 40%;
+	float: left;
+}
+
+.project-item .goto-box h1 {
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 50pt;
+	padding: 35px;
+	padding-bottom: 10px;
+}
+
+.project-item .goto-box p {
+	font-size: 25pt;
+	padding: 35px;
+	padding-top: 0;
+}
+
+.project-item img {
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+.project-item.blue-style-item .goto-box {
+	background-image: linear-gradient(to right bottom, #2d89ef, #1BA1E2);
+	color: white;
+}
