@@ -144,3 +144,107 @@ html, body {
 	background-image: linear-gradient(to right bottom, #f04747, rgb(161, 51, 0));
 	color: white;
 }
+
+/*
+	Add smaller device support
+*/
+
+/*
+	Mobile Devices
+*/
+
+@media screen and (max-width: 1024px) {
+	/*
+		Main big welcome gradiented orange text
+	*/
+
+	.page .main-text .main-text-wrapper h1 {
+		font-size: 35pt;
+	}
+
+	.page .main-text .main-text-wrapper p {
+		font-size: 25pt;
+	}
+
+	.main-text-wrapper {
+		padding: 50px;
+	}
+
+	.page .main-text {
+		height: 30vh;
+	}
+
+	/*
+		Project entries
+	*/
+
+	.project-item {
+		height: auto;
+	}
+
+	.project-item .goto-box {
+		width: 100%;
+		float: left;
+	}
+
+	.project-item img {
+		width: 100%;
+		float: left;
+	}
+
+	.project-item .goto-box h1 {
+		font-size: 25pt;
+	}
+
+	.project-item .goto-box p {
+		font-size: 15pt;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	/*
+		Main big welcome gradiented orange text
+	*/
+
+	.page .main-text .main-text-wrapper h1 {
+		font-size: 25pt;
+	}
+
+	.page .main-text .main-text-wrapper p {
+		font-size: 15pt;
+	}
+
+	.main-text-wrapper {
+		padding: 45px;
+	}
+
+	.page .main-text {
+		height: 30vh;
+	}
+
+	/*
+		Project entries
+	*/
+
+	.project-item {
+		height: auto;
+	}
+
+	.project-item .goto-box {
+		width: 100%;
+		float: left;
+	}
+
+	.project-item img {
+		width: 100%;
+		float: left;
+	}
+
+	.project-item .goto-box h1 {
+		font-size: 20pt;
+	}
+
+	.project-item .goto-box p {
+		font-size: 10pt;
+	}
+}
