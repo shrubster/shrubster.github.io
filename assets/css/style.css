@@ -89,6 +89,33 @@ html, body {
 }
 
 /*
+	About me
+*/
+
+.about-me {
+	width: 100%;
+	background-color: lightgray;
+}
+
+.about-me .about-me-content {
+	padding: 35px;
+}
+
+/*
+	About me - Text
+*/
+
+.about-me .about-me-content h2 {
+	font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40pt;
+}
+
+.about-me .about-me-content p {
+	font-family: 'Source Sans', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25pt;
+}
+
+/*
 	Project entries
 */
 
@@ -175,6 +202,22 @@ html, body {
 	}
 
 	/*
+		About me section
+	*/
+
+	.about-me .about-me-content {
+		padding: 20px;
+	}
+
+	.about-me .about-me-content h2 {
+		font-size: 23pt;
+	}
+
+	.about-me .about-me-content p {
+		font-size: 12pt;
+	}
+
+	/*
 		Project entries
 	*/
 
@@ -193,10 +236,14 @@ html, body {
 	}
 
 	.project-item .goto-box h1 {
+		padding: 20px;
+		padding-bottom: 5px;
 		font-size: 25pt;
 	}
 
 	.project-item .goto-box p {
+		padding: 20px;
+		padding-top: 0;
 		font-size: 15pt;
 	}
 }
