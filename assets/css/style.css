@@ -139,3 +139,8 @@ html, body {
 	background-image: linear-gradient(to right bottom, #2d89ef, #1BA1E2);
 	color: white;
 }
+
+.project-item.red-style-item .goto-box {
+	background-image: linear-gradient(to right bottom, #f04747, rgb(161, 51, 0));
+	color: white;
+}
