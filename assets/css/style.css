@@ -177,7 +177,7 @@ html, body {
 */
 
 /*
-	Mobile Devices
+	Smaller devices
 */
 
 @media screen and (max-width: 1024px) {
@@ -247,6 +247,10 @@ html, body {
 		font-size: 15pt;
 	}
 }
+
+/*
+	Mobile Devices
+*/
 
 @media screen and (max-width: 600px) {
 	/*
